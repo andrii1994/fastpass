@@ -5,10 +5,10 @@ $(document).ready(function () {
 function moreInfo() {
     $('.test2').hide();
     
-    var x = $(".test1").click(function () {
+    $(".test1").click(function () {
         var parentContainer = $(this).parents(".col-md-12").first();
-        var a = $(parentContainer).find(".test2").slideDown(400);
-        $(this).next(parentContainer).slideUp(400);
+        $(parentContainer).find(".test2").slideToggle(400);
+        
     });
    
 }
