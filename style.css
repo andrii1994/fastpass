@@ -186,22 +186,22 @@
 }
 
 .img-quote-left {
-    float: left;
-    margin-right: 12px;
-    margin-bottom: 100px;
+    float: left !important;
+    margin-right: 12px !important;
+    margin-bottom: 100px !important;
 }
 
 .img-quote-right {
-    margin-left: 7px;
+    margin-left: 7px !important;
 }
 
 .img-float-left {
-    float: left;
-    margin-right: 10px;
+    float: left !important;
+    margin-right: 10px !important;
 }
 
 .img-daymond-john {
-    margin-left: 40px;
+    margin-left: 40px !important;
 }
 
 .name {
@@ -270,18 +270,19 @@
     .green-btn-block {
         text-align: center;
     }
+    
 }
 
 
 @media only screen and (max-width: 992px) {
     .img-quote-left {
-        float: left;
-        margin-right: 12px;
-        margin-bottom: 0;
+        float: left !important;
+        margin-right: 12px !important;
+        margin-bottom: 0 !important;
     }
 
     .img-daymond-john {
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
 }
