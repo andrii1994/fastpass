@@ -434,36 +434,9 @@
     color: #c8c8c8 !important;
 }
 
-/*.what-inside-dropdown-list {
-    cursor: pointer;
-    width: 100%;
-    background-color: #d3d1d1;
-    text-align: center;
-    font-family: ITCFranklinGothicStd-DmCd;
-    text-transform: uppercase;
-    font-size: 24px;
-    color: #000;
-    border-bottom: 1px solid #efecec;
+.collapse-list {
+    padding: 0 !important;
 }
-
-.what-inside-dropdown-list {
-    padding-top: 8px;
-}
-
-.what-inside-light-font {
-    font-family: "Open Sans Condensed",sans-serif;
-}
-
-.test2 {
-    display: none;
-    background-color: #efecec;
-}
-
-.more_info_sep_down {
-    position: relative;
-    top: -20px;
-    display: none;
-}*/
 
 .panel-group .panel + .panel {
     margin-top: 0 !important;
