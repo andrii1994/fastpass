@@ -434,7 +434,7 @@
     color: #c8c8c8 !important;
 }
 
-.what-inside-dropdown-list {
+/*.what-inside-dropdown-list {
     cursor: pointer;
     width: 100%;
     background-color: #d3d1d1;
@@ -463,4 +463,100 @@
     position: relative;
     top: -20px;
     display: none;
+}*/
+
+.panel-group .panel + .panel {
+    margin-top: 0 !important;
+}
+
+.panel-default > .panel-heading {
+    background-image: none !important;
+    background-color: #d3d1d1 !important;
+}
+
+.std-colapse-panel {
+    border: 0 !important;
+}
+
+.panel {
+    box-shadow: none !important;
+}
+
+.panel-heading {
+    border-radius: 0 !important;
+}
+
+.panel-default > .panel-heading {
+    color: #000;
+}
+
+.panel {
+    border: none !important;
+}
+
+.std-colapse-panel-head {
+    text-align: center;
+    font-family: ITCFranklinGothicStd-DmCd;
+    text-transform: uppercase;
+    
+    color: #000 !important;
+}
+
+.std-colapse-panel {
+    border-bottom: 1px solid #efecec !important;
+}
+
+.std-colapse-panel .std-colapse-panel-head h4 {
+    font-size: 24px;
+}
+
+.std-colapse-panel .std-colapse-panel-head h4 a {
+    text-decoration: none;
+    /* removes dotted border after click */
+    outline: none;
+}
+
+.std-colapse-panel .std-colapse-panel-head h4 .panel-title-a-light-font {
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: none !important;
+    background-color: #efecec;
+}
+
+.hidden-collapse-block .hidden-collapse-text {
+    text-align: center;
+    font-family: GothamBook;
+    font-size: 13px;
+    color: #000;
+}
+
+.panel-body {
+    padding: 25px !important;
+}
+
+.more-info-sep-down {
+    position: relative;
+    top: -5px;
+    margin: 0;
+    z-index: 0;
+/*  display: none;*/
+}
+
+.hidden-collapse-block-img {
+    background-color: #efecec;
+}
+
+.plus-minus {
+    color: #fff;
+    font-size: 25px;
+    font-family: ITCFranklinGothicStd-DmCd !important;
+    font-weight: bold !important;
+    display: inline;
+    clear: none;
+}
+
+.std-colapse-panel .std-colapse-panel-head .std-colapse-panel-title a p {
+    margin: 0;
 }

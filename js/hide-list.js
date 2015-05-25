@@ -3,12 +3,9 @@ $(document).ready(function () {
 });
 
 function moreInfo() {
-    $('.test2').hide();
-    
-    $(".test1").click(function () {
-        var parentContainer = $(this).parents(".col-md-12").first();
-        $(parentContainer).find(".test2").slideToggle(400);
-        
+    $('.collapse').on('show.bs.collapse', function () {
+        $(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").show("slow").addClass("glyphicon-minus");
+    }).on('hide.bs.collapse', function () {
+        $(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").show("slow").addClass("glyphicon-plus");
     });
-   
 }
