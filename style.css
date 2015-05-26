@@ -42,6 +42,16 @@
     src: url(fonts/GothamBoldItalic.ttf);
 }
 
+@font-face {
+    font-family: BauerBodoniStd-Black;
+    src: url(fonts/BauerBodoniStd-Black.otf);
+}
+
+@font-face {
+    font-family: GothamMediumItalic;
+    src: url(fonts/GothamMediumItalic.ttf);
+}
+
 .logo {
     margin-left: -21% !important;
 }
@@ -270,7 +280,27 @@
     .green-btn-block {
         text-align: center;
     }
+
+    .circle-img-quote-text {
+        padding-top: 0 !important;
+        position: relative !important;
+        left: 0 !important;
+        text-align: center;
+    }
+
+    .circle-img-quote-mark-img-left {
+        float: none !important;
+        margin: 0px 5px 0px 0px !important;
+        display: inline-block !important;
+    }
     
+    .quote-text-left {
+        padding-left: 0 !important;
+    }
+    
+    .quoters-name-second-block {
+        padding-left: 0 !important;
+    }
 }
 
 
@@ -471,7 +501,7 @@
     text-align: center;
     font-family: ITCFranklinGothicStd-DmCd;
     text-transform: uppercase;
-    
+
     color: #000 !important;
 }
 
@@ -514,7 +544,7 @@
     top: -5px;
     margin: 0;
     z-index: 0;
-/*  display: none;*/
+    /*  display: none;*/
 }
 
 .hidden-collapse-block-img {
@@ -532,4 +562,59 @@
 
 .std-colapse-panel .std-colapse-panel-head .std-colapse-panel-title a p {
     margin: 0;
+}
+
+.circle-img-quote-bg {
+    background-color: #e4e1e1;
+}
+
+.circle-img-quote-2bg {
+    background-color: #f5f4f4;
+}
+
+.circle-img {
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+.circle-img-quote-text {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #5e5d5d;
+    font-size: 18px;
+    padding-top: 6%;
+    position: relative;
+    left: -4%;
+}
+
+.circle-img-quote-mark-img-left {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.circle-img-quote-mark-img-right {
+    display: inline-block !important;
+}
+
+.quoters-name {
+    font-family: GothamBold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #cd0713;
+    margin: 0;
+}
+
+.quoters-desc {
+    font-family: GothamMediumItalic;
+    font-size: 12px;
+    color: #000;
+}
+
+.quote-text-left {
+    left: 0 !important;
+    padding-left: 3%;
+    padding-top: 5%;
+}
+
+.quoters-name-second-block {
+    padding-left: 3%;
 }
