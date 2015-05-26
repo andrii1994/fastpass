@@ -1,10 +1,10 @@
 
-.jumbotron {
-    background: url("img/header_bg.png") no-repeat scroll center center / cover transparent;
-    width: 100%;
-    height: 491px;
-    padding: 0 !important;
-    margin: 0 !important;
+.top-bg {
+    background: #666 url("img/header_bg.png") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 @font-face {
@@ -56,17 +56,17 @@
     margin-left: -21% !important;
 }
 
-.jumbotron .navbar-default {
+.top-bg .navbar-default {
     background: none repeat scroll 0% 0% transparent;
     border: 0px none;
     box-shadow: none;
 }
 
-.jumbotron .collapse ul {
+.top-bg .collapse ul {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.jumbotron .collapse ul li a {
+.top-bg .collapse ul li a {
     color: #fff;
     font-family: Franklin-Extra-Cond-Gothic,sans-serif;
     font-size: 20px;
@@ -75,7 +75,7 @@
 
 }
 
-.jumbotron .collapse ul li a:hover {
+.top-bg .collapse ul li a:hover {
     color: #D00000;
 }
 
@@ -125,7 +125,6 @@
     font-family: Franklin-Extra-Cond-Gothic;
     font-size: 20px;
     padding: 3px 30px;
-    margin-top: 15px;
 }
 
 .red-block {
@@ -255,6 +254,7 @@
 
     .main-text {
         padding-top: 5%;
+        padding-left: 20%;
     }
 
     .main-text .ny-times {
@@ -293,11 +293,11 @@
         margin: 0px 5px 0px 0px !important;
         display: inline-block !important;
     }
-    
+
     .quote-text-left {
         padding-left: 0 !important;
     }
-    
+
     .quoters-name-second-block {
         padding-left: 0 !important;
     }
@@ -616,5 +616,23 @@
 }
 
 .quoters-name-second-block {
-    padding-left: 3%;
+    padding-left: 9%;
 }
+
+.align-right {
+    text-align: right;
+}
+
+.bg-img-bottom {
+    background: #000 url("img/bg_img_bottom.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*    background: url("img/bg_img_bottom.jpg") no-repeat scroll center center / cover transparent;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0 auto;
+    margin: 0 auto;*/
