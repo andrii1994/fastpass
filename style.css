@@ -227,6 +227,8 @@
     color: #730204;
 }
 
+/* media rules begin*/
+
 @media only screen and (max-width: 768px) {
     .margin-bottom {
         margin-bottom: 30px;
@@ -270,7 +272,8 @@
     }
 
     .checkmark-img {
-        padding-left: 34%;
+        padding-left: 0 !important;
+        margin: 0 auto;
     }
 
     .learn-at-block {
@@ -300,6 +303,27 @@
 
     .quoters-name-second-block {
         padding-left: 0 !important;
+    }
+    
+    .footer-nav .navbar-nav > li > a {
+    padding-top: 10px !important;
+    }
+    
+    .footer-nav nav .navbar-brand img {
+        width: 110px;
+    }
+    
+     .powered-by {
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+    
+    .copy {
+        text-align: center;
+    }
+    
+    .btn-buy-now-block {
+        text-align: right;
     }
 }
 
@@ -349,7 +373,25 @@
     }
 }
 
+@media only screen and (max-width: 280px) {
 
+    .main-title {
+        font-size: 13px !important;
+    }
+
+    .main-text .training-system {
+        font-size: 14px !important;
+    }
+
+    .question {
+        font-size: 25px;
+    }
+
+}
+
+/* end of media rules*/
+
+/* ---- styles ----*/
 .master-4-bg {
     background-color: #efecec;
 }
@@ -636,3 +678,122 @@
     min-height: 100%;
     padding: 0 auto;
     margin: 0 auto;*/
+
+.about-darren-title {
+    margin-top: 15%;
+}
+
+.about-darren-title h3 {
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    font-size: 35px;
+    color: #8b8a8a;
+}
+
+.about-darren-title h3 .about-darren-bold {
+    font-family: ITCFranklinGothicStd-DmCd;
+    color: #666565;
+}
+
+.about-darren-title p .sep-bottom-about {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.main-text-about-darren {
+    font-family: GothamBook;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-darren-title .bestselling-author {
+    font-family: Franklin-Extra-Cond-Gothic;
+    font-size: 20px;
+    color: rgba(108, 107, 107, 0.7);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-darren-title p .bestselling-author-brand-img {
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.about-darren-title .green-btn-block-bottom {
+    margin: 40px 0px;
+}
+
+.bottom-black-bg {
+    background-color: #000;
+}
+
+.footer-nav nav .navbar-brand {
+    height: auto;
+}
+
+.footer-nav .navbar-default {
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.footer-nav .navbar-brand, .footer-nav .navbar-nav > li > a {
+    text-shadow: none !important;
+}
+
+.footer-nav .navbar-nav > li > a {
+    padding-top: 45px;
+}
+
+.footer-nav .navbar-default .navbar-nav > li > a {
+    color: #6c6b6b;
+    font-size: 15px;
+    font-family: Franklin-Extra-Cond-Gothic,sans-serif;
+}
+
+.footer-nav .navbar-default .navbar-collapse, .footer-nav .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.footer-nav .navbar-default .navbar-toggle:focus, .footer-nav .navbar-default .navbar-toggle:hover {
+    background-color: #222;
+}
+
+.footer-nav .navbar-toggle {
+    margin-top: 26px;
+}
+
+.footer-nav .navbar {
+    margin-bottom: 5px;
+}
+
+.sep-footer {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy {
+    color: #6c6b6b;
+    font-family: GothamBook;
+    font-size: 11px;
+/*    font-weight: bold;*/
+    text-transform: uppercase;
+}
+
+.powered-by {
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 10px;
+    color: #fff;
+    text-align: right;
+}
+
+.footer-margin {
+    margin: 10px 0px 30px 0px;
+}
+
+.footer-margin .powered-by img {
+    vertical-align: baseline;
+}
